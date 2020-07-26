@@ -46,9 +46,6 @@ SELECT * FROM pgr_TSP(
         $_$
     )
     $$,
-    -- parameters for MacOS version only
-    tries_per_temperature := 500000,
-    max_changes_per_temperature := 100000,
     randomize := false
 )
 ),
